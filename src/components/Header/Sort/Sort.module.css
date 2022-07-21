@@ -1,0 +1,16 @@
+.selectWrapPosition {
+    display: flex;
+}
+
+.findSpanResolution {
+    width: 100px;
+}
+
+.selectSpan {
+    color: white;
+    width: 100px;
+}
+
+select {
+    width: 265px;
+}

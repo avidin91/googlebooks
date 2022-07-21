@@ -1,0 +1,62 @@
+.position {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    line-height: 13px;
+}
+
+.findSpan {
+    display: block;
+    text-align: center;
+}
+
+.resultBlock {
+    width: 180px;
+    height: 280px;
+    background-color: darkolivegreen;
+    margin: 10px;
+}
+
+.imgPosition {
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+}
+
+.grid img {
+    object-fit: contain;
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+}
+
+.spanZero {
+    margin: 5px 0 0 10px;
+}
+
+.spaniel {
+    margin: 10px 0 0 10px;
+}
+
+
+.categories {
+    color: gray;
+    font-size: 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.authors {
+    font-size: 13px;
+    line-height: 16px;
+}
+
