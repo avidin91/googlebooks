@@ -1,7 +1,7 @@
 const UPDATE_SORTING_BY_VALUE = 'UPDATE-SORTING-BY-VALUE';
 
 let initialState = {
-    newSortingValue: 'Authors',
+    newSortingValue: 'Title',
 }
 
 const sortingByReducer = (state = initialState, action) => {

@@ -17,11 +17,6 @@ class Items extends React.Component {
                 return authors
             }
         }
-
-    };
-
-    test() {
-        return this.props.items;
     };
 
     render() {
@@ -45,7 +40,6 @@ class Items extends React.Component {
                 sortingBy = (a, b) => (a.volumeInfo.title > b.volumeInfo.title) ? 1 : -1;
             }
         }
-
 
         if (optionsForAllCategoriesFilter && optinonsForSortinBy) {
             filter = this.props.items.filter(i => i == i);

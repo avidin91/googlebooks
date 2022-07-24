@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css";
 import SortContainer from "./Sort/SortContainer";
+import SearchContainer from "./Search/SearchContainer";
 
 
 function Header(props) {
@@ -10,7 +11,7 @@ function Header(props) {
                 <span className={classes.mainSpan}>Search for books</span>
             </div>
             <div className={classes.selectWrap}>
-                <div><input type="search"/></div>
+                <SearchContainer />
                 <SortContainer />
             </div>
         </div>
