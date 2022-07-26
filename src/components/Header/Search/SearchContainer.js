@@ -5,7 +5,8 @@ import {searchValueReducerAC} from "../../../redux/search-reducer";
 
 function mapStateToProps(state) {
     return {
-        searchValue: state.searchValue.newValue ,
+        items: state.itemsPage.items,
+        searchValue: state.searchValue.newValue,
     }
 };
 

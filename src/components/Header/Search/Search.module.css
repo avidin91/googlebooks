@@ -1,10 +1,13 @@
 .onSearchDiv {
     width: 500px;
-    height: 30px;
+    height: 300px;
     left: 0;
     right: 0;
     margin: auto;
-    background-color: blue;
+    background-color: #f7f7f7;
     position: absolute;
     z-index: 10;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
 }
